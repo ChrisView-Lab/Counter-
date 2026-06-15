@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --main-color: #5254d8;
+  --button-color: #0092ca;
+  --sfondo-color: rgb(21, 21, 21);
+  --testo1-color: aliceblue;
+  --btnhover-color: #2cc7ff;
+}
+
+html {
+  font-size: clamp(14px, 2vw, 20px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: var(--testo1-color);
+}
+
+body {
+  background-color: var(--sfondo-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  font-size: small;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 80px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.dark-mode-text {
+  margin-right: 10px;
+}
+.btn-dark {
+  margin-right: 20px;
+  background-color: var(--button-color);
+  color: var(--sfondo-color);
+  border-radius: 30px;
+  cursor: pointer;
+}
+.wrapper {
+  height: 70vh;
+  margin-top: 30px;
+}
+.h1 {
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.numberShow {
+  margin: 50px;
+  font-size: 40px;
+}
+
+.allButtons {
+  background-color: var(--button-color);
+  color: var(--sfondo-color);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.reset {
+  width: 100px;
+  height: 60px;
+  border-radius: 20px;
+}
+.small {
+  width: 70px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.allButtons:hover {
+  background-color: var(--btnhover-color);
+}
+.btn-dark:hover {
+  background-color: var(--btnhover-color);
+}
+.contact {
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+  width: 100vw;
+  color: var(--testo1-color);
+}
+.profile-link {
+  text-decoration: none;
+  color: #5254d8;
+}
